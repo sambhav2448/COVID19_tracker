@@ -1,0 +1,28 @@
+body,html{
+    max-width: 100%;
+    overflow-x: hidden;
+    background-color: rgb(243, 243, 243);
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.image{
+    width: 370px;
+    margin-top:30px;
+    margin-bottom: 10px;
+}
+
+@media(max-width:770px){
+ 
+    .container{
+        margin:0 10%;
+    }
+    
+    .image{
+        width: 100%;
+    }
+}
